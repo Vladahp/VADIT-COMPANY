@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.company-name {
+    font-family: "Russo one";
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+menu {
+    margin: 0;
+    padding: 1%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #F0866C ;
+}
+
+
+.logo {
+    margin-right: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Russo one';
+}
+.menu-pages {
+    text-align: right;
+}
+.menu-page {
+    display: inline;
+    margin-right: 8%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+a:hover {
+    color: white;
+    transition: 0.3s;
+    
+}
+
+header {
+    padding: 10%;
+    text-align: center;
+    background-image: url("main.jpeg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    
+}
+
+.header-text {
+    color: #ffffff;
+    font-family: "Russo one", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 10px 0 10px;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.324);
+}
+
+.buy-button {
+    background-color: #F0866C;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+}
+.buy-button:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+.services{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.services-text {
+    font-family: "Russo one";
+    font-weight: 200;
+    text-align: center;
+    margin: 10%;
+}
+.services-button {
+    background-color: black;
+    color:#ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+.services-button:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.4s;
+}
+.servic {
+    background-color: #F0866C;
+    display: inline-block;
+    padding: 10%;
+    margin: 2%;
+}
+
+.about-us {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.about-us-text {
+    font-family: "Russo one";
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10%;
+}
+.about-me {
+    display: inline;
+    text-align: center;
+
+}
+.my-img { 
+    width: 50%;
+    margin: 0;;
+    padding: 0;
+    border-radius: 15px;
+
+}
+
+.about-us-img {
+    background-color: rgba(0, 0, 0, 0.792);
+    border-radius: 50px;
+    padding: 5% 0 5% 0;
+    margin: 5%;
+    color: #ffffff;
+}
+
+.tips {
+    display: inline;
+    text-align: center;
+}
+.tip {
+    text-align: center;
+    background-color: #F0866C;
+    margin: 3%;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.tips-list {
+    background-color: rgba(0, 0, 0, 0.784);
+    color: #F0866C;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 5%;
+}
+.main-list {
+    display: inline;
+    text-align: center;
+    
+}
+.about-us-list {
+    margin: 15%;
+}
+.list {
+    text-align: center;
+}
+.under-list-text {
+    text-align: center;
+    margin: 10%;
+}
+.footer-name {
+    font-family: "Russo one";
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #F0866C;
+    margin-bottom: 0%;
+    padding: 5% 0 5% 0;
+    text-align: left;
+
+}
+.inst {
+    display: flex;
+    margin-top: 15%;
+}
+.inst-logo {
+    width: 8%;
+    height: 7%;
+    margin-right: 5% ;
+    margin-left: 5%;
+   
+}
+.company-inst {
+    font-size: 80%;
+}
+.footer-text {
+    margin: 2%;
+    font-size: 120%;
+}
+.footer-divs {
+    display: -webkit-flex;
+    margin: 0%;
+}
+.form {
+    background-color: rgba(0, 0, 0, 0.173);
+    border-radius: 15px;
+    padding: 5%;
+    text-align: center;
+    margin: 2%;
+    margin-right: 10%;
+
+}
+.inst-text {
+    margin: 0%;
+}
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 15px ;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+li {
+    list-style-type: none;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
